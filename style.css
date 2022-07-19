@@ -4,17 +4,21 @@ body {
     margin: 0;
 }
 section {
-    background-color: rgb(241, 241, 241);
-    width: 80%;
+    width: 70%;
     height: 70%;
     margin: -120px auto 50px;
     
 }
 
 .card {
-    background-color: rgb(241, 241, 241);
     border-radius: 16px;
     border: 1px  hsla(0, 0%, 22%, 0.068);
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 section h1{
@@ -87,7 +91,7 @@ img {
     left: 0;
     opacity: 0;
     transition: opacity .5s;
-    background: rgba(90,0,10,0.4);
+    background: rgba(255, 255, 255, 0.4);
     color: white;
     
     /* position the text in t’ middle*/
@@ -102,6 +106,7 @@ img {
   
   .location-listing:hover .location-image img {
     filter: blur(2px);
+    
   }
   
   
