@@ -120,3 +120,35 @@ img {
     }
   }
 
+  .card-body {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 2y0px 40px 20px 40px;
+  
+
+  }
+
+  .card {
+    width: 100%;
+  }
+
+   /* contenedor join us*/
+   
+   .contenedor-restaurante{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+
+  .contenedor-ambiente{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+
+  .contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+  }
